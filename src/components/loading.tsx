@@ -1,5 +1,3 @@
-const Loading = () => {
-  return <p>Loading...</p>;
-};
+// import React from "react";
 
-export default Loading;
+export const Loading = () => <p>Loading...</p>;

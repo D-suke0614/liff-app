@@ -1,10 +1,11 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import logo from "../logo.svg";
 
 const Top = () => {
   const [count, setCount] = useState(0);
   const [liffObject, setLiffObject] = useState<any>(null);
+  console.log(liffObject);
 
   useEffect(() => {
     import("@line/liff").then((liff: any) => {

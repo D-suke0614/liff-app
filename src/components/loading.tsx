@@ -1,3 +1,3 @@
-// import React from "react";
+import React from "react";
 
-export const Loading = () => <p>Loading...</p>;
+export const Loading: React.FC = () => <p>Loading...</p>;
